@@ -5,10 +5,10 @@ This has all the details about task of blinking the internal led of esp32 using 
 
 ## Task name: blinking internal led of ESP32.
 
-## Reference:
+## Reference
 https://iotdesignpro.com/projects/getting-started-with-esp32-program-it-using-arduino-ide-blinking-led
 
-## Components used: 
+## Components used 
 ESP32 dev module board, USB cable, Arduino IDE.
 Just connect the ESP32 to the computer using an USB cable.
 
@@ -35,7 +35,7 @@ Go to tools, select appropriate board name and COM port.
 Once verified, upload this code to the ESP32.
 Now observe the internal LED blink.
 
-## Problem faced
+## Problems faced
 There was no syntax or compilation error, but when I tried to upload the code to ESP32, it failed and threw me an error, “fatal error-package not found.” Another time it showed different error, which was:
 
 This could be due to 2 problems:
