@@ -13,16 +13,8 @@ ESP32 dev module board, USB cable, Arduino IDE.
 Just connect the ESP32 to the computer using an USB cable.
 
 ## Code 
-Int led_btn=2;
-void setup(){
-   pinMode(led_btn, OUTPUT);
-}
-void loop(){
-  digitalWrite(led_btn, HIGH);
-  delay(1000);
-  digitalWrite(led_btn, LOW);
-  delay(1000);
-}
+https://github.com/meghana-23-7/Blinking-Internal-LED-of-ESP32/blob/main/sketch_task1.ino
+
 Here, we first declare a variable led_btn as 2, which is the pin number of internal led of ESP32.
 Next we set up pinmode for the same, as we are using it to observe output, we set it as output.
 Next step, we write for how long the delay should be after ON(HIGH) or OFF(LOW) of led, this loop continues to run till we disconnect the USB cable or upload a new program.
